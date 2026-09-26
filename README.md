@@ -1,12 +1,12 @@
 # 🤖 Synapse Digital — AI Business Assistant
 
-![n8n](https://img.shields.io/badge/Built%20with-n8n-EA4B71?logo=n8n\&logoColor=white)
+![n8n](https://img.shields.io/badge/Built%20with-n8n-EA4B71?logo=n8n&logoColor=white)
 ![AI Agent](https://img.shields.io/badge/AI-Agent-8A2BE2)
-![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram\&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram&logoColor=white)
 ![Languages](https://img.shields.io/badge/Languages-Arabic%20%7C%20French%20%7C%20English-orange)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql\&logoColor=white)
-![Google Calendar](https://img.shields.io/badge/Scheduling-Google%20Calendar-4285F4?logo=googlecalendar\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Google Calendar](https://img.shields.io/badge/Scheduling-Google%20Calendar-4285F4?logo=googlecalendar&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue)
 
 **Synapse Digital** is a multilingual **AI business assistant and intelligent automation workflow** built with **n8n** for an electronics repair and sales business.
@@ -18,6 +18,16 @@ Rather than acting as a simple chatbot, the AI Agent is connected to real busine
 The workflow combines:
 
 **AI Agents + Business Rules + Databases + Calendar Automation + Voice AI + Telegram**
+
+---
+
+## 🎬 Demo
+
+The same bot, same logic, three languages — it detects the customer's language automatically and never mixes languages mid-sentence:
+
+| English | Français | العربية |
+|---|---|---|
+| ![Welcome EN](screenshots/welcome_en.png) | ![Welcome FR](screenshots/welcome_fr.png) | ![Welcome AR](screenshots/welcome_ar.png) |
 
 ---
 
@@ -442,7 +452,7 @@ The model can be changed without redesigning the entire workflow.
 
 The workflow contains separate processing paths for text and voice interactions while using the same overall business logic and tools.
 
-![Synapse Digital Workflow](screenshots/workflow_overview_upscaled.png)
+![Synapse Digital Workflow](screenshots/workflow_overview.png)
 
 ### High-level architecture
 
@@ -573,7 +583,10 @@ synapse-digital-bot/
 ├── LICENSE
 │
 ├── screenshots/
-│   └── workflow_overview_upscaled.png
+│   ├── welcome_en.png
+│   ├── welcome_fr.png
+│   ├── welcome_ar.png
+│   └── workflow_overview.png
 │
 └── workflow/
     └── Synapse_Digital_Assistant.json
@@ -908,7 +921,7 @@ The objective is to create a system capable of understanding customers naturally
 
 The complete n8n workflow is included in this repository.
 
-![Synapse Digital n8n Workflow](screenshots/workflow_overview_upscaled.png)
+![Synapse Digital n8n Workflow](screenshots/workflow_overview.png)
 
 ---
 
