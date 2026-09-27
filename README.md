@@ -35,7 +35,7 @@ The same bot, same logic, three languages — it detects the customer's language
 
 The assistant supports three languages:
 
-* 🇹🇳 **Arabic**
+* 🇸🇦 **Arabic**
 * 🇫🇷 **French**
 * 🇬🇧 **English**
 
