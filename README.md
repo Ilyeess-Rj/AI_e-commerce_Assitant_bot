@@ -865,27 +865,26 @@ The appropriate legal and privacy requirements depend on the country and busines
 
 ---
 
-# 🔮 Future Improvements
 
-Possible future extensions include:
+# 🚀 Ideas to Extend This Project
 
-* WhatsApp integration
-* Multimodal image understanding
-* Receipt/image recognition
-* Document processing
-* Customer authentication
-* Real inventory management
-* Payment integration
-* Automated appointment reminders
-* CRM integration
-* Customer notification system
-* Human-agent escalation
-* Advanced analytics
-* Business intelligence dashboards
-* Automatic reporting
-* Customer history
-* Role-based administration
-* Multimodal AI Agents
+The architecture is modular, so it is easy to build on.
+If you would like to take it further, here are some ideas:
+
+- WhatsApp integration alongside Telegram
+- Automatic appointment reminders
+- Human-agent escalation for complex cases
+- Receipt / image recognition with multimodal AI
+- Document processing
+- Customer authentication
+- Real inventory management
+- Payment integration
+- CRM integration
+- Customer notification system
+- Role-based administration
+- Advanced analytics and business intelligence dashboards
+- Automatic reporting
+- Customer history
 
 ---
 
